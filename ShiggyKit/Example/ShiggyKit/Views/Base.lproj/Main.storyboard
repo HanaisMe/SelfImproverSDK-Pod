@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OSY-jk-tMg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="CalendarVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="CalendarSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cFv-BJ-0qM">
+                                <rect key="frame" x="0.0" y="134" width="375" height="533"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="tXU-9j-bjO">
+                                    <rect key="frame" x="0.0" y="98" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="oneWeekTableViewCell" rowHeight="70" id="4NW-10-tBh" customClass="OneWeekTableViewCell" customModule="CalendarSample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4NW-10-tBh" id="giD-oq-w9r">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Elk-po-Nga" customClass="OneWeekView" customModule="CalendarSample" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Elk-po-Nga" firstAttribute="height" secondItem="giD-oq-w9r" secondAttribute="height" id="Rye-vo-c8t"/>
+                                                <constraint firstItem="Elk-po-Nga" firstAttribute="centerY" secondItem="giD-oq-w9r" secondAttribute="centerY" id="UCq-kK-rtk"/>
+                                                <constraint firstItem="Elk-po-Nga" firstAttribute="width" secondItem="giD-oq-w9r" secondAttribute="width" id="iIw-Wk-nDO"/>
+                                                <constraint firstItem="Elk-po-Nga" firstAttribute="centerX" secondItem="giD-oq-w9r" secondAttribute="centerX" id="icA-8K-G0F"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="oneWeekView" destination="Elk-po-Nga" id="88E-3D-Bin"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P0B-8I-o2T" customClass="OneWeekView" customModule="CalendarSample" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="eb6-G9-MFe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P0B-8I-o2T" secondAttribute="trailing" id="1uF-q7-9Nc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cFv-BJ-0qM" secondAttribute="trailing" id="5RV-du-QDu"/>
+                            <constraint firstItem="P0B-8I-o2T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="b4R-pB-JKU"/>
+                            <constraint firstItem="cFv-BJ-0qM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bma-EQ-KZ0"/>
+                            <constraint firstItem="P0B-8I-o2T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ftq-LL-gcE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cFv-BJ-0qM" secondAttribute="bottom" id="qc6-dE-xIB"/>
+                            <constraint firstItem="cFv-BJ-0qM" firstAttribute="top" secondItem="P0B-8I-o2T" secondAttribute="bottom" id="xm0-73-Qik"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="cKk-c2-2gS">
+                        <barButtonItem key="leftBarButtonItem" title="◀︎ Previous" id="3Qc-Cj-0Sc">
+                            <connections>
+                                <action selector="previousMonthButtonTapped:" destination="BYZ-38-t0r" id="uEa-9m-KZ8"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Next ►" id="eeG-09-Jsf">
+                            <connections>
+                                <action selector="nextMonthButtonTapped:" destination="BYZ-38-t0r" id="TVA-xc-LZt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="calendarView" destination="cFv-BJ-0qM" id="spz-rg-aq8"/>
+                        <outlet property="headerView" destination="P0B-8I-o2T" id="bT8-qn-VJQ"/>
+                        <outlet property="nextMonthButton" destination="eeG-09-Jsf" id="DHz-69-Ibx"/>
+                        <outlet property="previousMonthButton" destination="3Qc-Cj-0Sc" id="6To-4M-9xL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="461.60000000000002" y="792.95352323838085"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bYO-Jf-2DG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OSY-jk-tMg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Cmt-cB-oTB">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cuS-fI-lb8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pSk-cz-4N8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-324" y="792.95352323838085"/>
+        </scene>
+    </scenes>
+</document>

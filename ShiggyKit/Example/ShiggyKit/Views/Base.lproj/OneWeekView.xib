@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OneWeekView" customModule="CalendarSample" customModuleProvider="target">
+            <connections>
+                <outletCollection property="oneDayViewCollection" destination="BVr-rq-pXL" collectionClass="NSMutableArray" id="0j8-64-lJ4"/>
+                <outletCollection property="oneDayViewCollection" destination="55c-bL-ea9" collectionClass="NSMutableArray" id="fgA-BV-7a0"/>
+                <outletCollection property="oneDayViewCollection" destination="ggQ-vI-0pD" collectionClass="NSMutableArray" id="kOp-V7-wnq"/>
+                <outletCollection property="oneDayViewCollection" destination="xrv-h2-7il" collectionClass="NSMutableArray" id="7cQ-lk-47S"/>
+                <outletCollection property="oneDayViewCollection" destination="NOe-Ud-5Nu" collectionClass="NSMutableArray" id="3Ru-mR-Nak"/>
+                <outletCollection property="oneDayViewCollection" destination="3hh-pn-yDD" collectionClass="NSMutableArray" id="UE5-DP-eEH"/>
+                <outletCollection property="oneDayViewCollection" destination="FK3-1G-Spy" collectionClass="NSMutableArray" id="ezQ-bL-XKa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hws-s4-Z2C">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                    <subviews>
+                        <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVr-rq-pXL" customClass="OneDayView" customModule="CalendarSample" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="53.5" height="150"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="55c-bL-ea9" customClass="OneDayView" customModule="CalendarSample" customModuleProvider="target">
+                            <rect key="frame" x="53.5" y="0.0" width="53.5" height="150"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ggQ-vI-0pD" customClass="OneDayView" customModule="CalendarSample" customModuleProvider="target">
+                            <rect key="frame" x="107" y="0.0" width="53.5" height="150"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xrv-h2-7il" customClass="OneDayView" customModule="CalendarSample" customModuleProvider="target">
+                            <rect key="frame" x="160.5" y="0.0" width="54" height="150"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NOe-Ud-5Nu" customClass="OneDayView" customModule="CalendarSample" customModuleProvider="target">
+                            <rect key="frame" x="214.5" y="0.0" width="53.5" height="150"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view tag="6" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3hh-pn-yDD" customClass="OneDayView" customModule="CalendarSample" customModuleProvider="target">
+                            <rect key="frame" x="268" y="0.0" width="53.5" height="150"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view tag="7" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FK3-1G-Spy" customClass="OneDayView" customModule="CalendarSample" customModuleProvider="target">
+                            <rect key="frame" x="321.5" y="0.0" width="53.5" height="150"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="BVr-rq-pXL" firstAttribute="width" secondItem="FK3-1G-Spy" secondAttribute="width" id="GUn-eL-pXN"/>
+                        <constraint firstItem="BVr-rq-pXL" firstAttribute="width" secondItem="3hh-pn-yDD" secondAttribute="width" id="gr4-Nr-iX3"/>
+                        <constraint firstItem="BVr-rq-pXL" firstAttribute="width" secondItem="xrv-h2-7il" secondAttribute="width" id="hJA-cb-tmr"/>
+                        <constraint firstItem="BVr-rq-pXL" firstAttribute="width" secondItem="55c-bL-ea9" secondAttribute="width" id="vFQ-le-bFb"/>
+                        <constraint firstItem="BVr-rq-pXL" firstAttribute="width" secondItem="ggQ-vI-0pD" secondAttribute="width" id="vsC-5Q-xg9"/>
+                        <constraint firstItem="BVr-rq-pXL" firstAttribute="width" secondItem="NOe-Ud-5Nu" secondAttribute="width" id="xcz-s8-9a8"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hws-s4-Z2C" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Rul-Z5-S5p"/>
+                <constraint firstItem="hws-s4-Z2C" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="eeJ-Rt-lai"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="hws-s4-Z2C" secondAttribute="bottom" id="hgc-I2-Iq1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hws-s4-Z2C" secondAttribute="trailing" id="tj6-UF-kTD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>

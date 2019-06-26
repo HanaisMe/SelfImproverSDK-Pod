@@ -1,0 +1,15 @@
+platform :ios, '11.0'
+
+target 'ShiggyKit_Example' do
+
+  pod 'ShiggyKit', :path => '../'
+
+  target 'ShiggyKit_ExampleTests' do
+    inherit! :search_paths
+  end
+
+  target 'ShiggyKit_ExampleUITests' do
+    inherit! :search_paths
+  end
+
+end

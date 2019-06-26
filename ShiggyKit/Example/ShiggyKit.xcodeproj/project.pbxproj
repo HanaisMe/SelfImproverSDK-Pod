@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A0F89FB4BBA7739B18D329 /* libPods-ShiggyKit_ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F62AF6ED8930F8F2783622 /* libPods-ShiggyKit_ExampleTests.a */; };
+		5D02642F234104E30101EDBC /* libPods-ShiggyKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3FC4CF0FA9B44CE1B2BF9D /* libPods-ShiggyKit_Example.a */; };
+		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
+		9C6EC949137CFB3EED98CDC1 /* libPods-ShiggyKit_ExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F99D43A39B4823B2FA85F2 /* libPods-ShiggyKit_ExampleUITests.a */; };
+		BAA691BD22C3A6D500A7AE00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA691AE22C3A6D500A7AE00 /* LaunchScreen.storyboard */; };
+		BAA691BE22C3A6D500A7AE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA691B022C3A6D500A7AE00 /* Main.storyboard */; };
+		BAA691BF22C3A6D500A7AE00 /* OneWeekView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA691B222C3A6D500A7AE00 /* OneWeekView.xib */; };
+		BAA691C022C3A6D500A7AE00 /* OneDayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA691B422C3A6D500A7AE00 /* OneDayView.xib */; };
+		BAA691C122C3A6D500A7AE00 /* OneDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA691B622C3A6D500A7AE00 /* OneDayView.swift */; };
+		BAA691C222C3A6D500A7AE00 /* OneWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA691B722C3A6D500A7AE00 /* OneWeekView.swift */; };
+		BAA691C322C3A6D500A7AE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA691B922C3A6D500A7AE00 /* Assets.xcassets */; };
+		BAA691C522C3A6D500A7AE00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA691BC22C3A6D500A7AE00 /* ViewController.swift */; };
+		BAA691CF22C3A82C00A7AE00 /* ShiggyKit_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA691CE22C3A82C00A7AE00 /* ShiggyKit_ExampleTests.swift */; };
+		BAA691DD22C3A85B00A7AE00 /* ShiggyKit_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA691DC22C3A85B00A7AE00 /* ShiggyKit_ExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAA691D122C3A82C00A7AE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = ShiggyKit_Example;
+		};
+		BAA691DF22C3A85B00A7AE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = ShiggyKit_Example;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05EB77A68DF6FA1B1795FC95 /* Pods-ShiggyKit_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiggyKit_ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ShiggyKit_ExampleTests/Pods-ShiggyKit_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B959D8863574D50C2D7A07F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		47F7923D1AEBA5D7485179A2 /* ShiggyKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ShiggyKit.podspec; path = ../ShiggyKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		553E5B9F7A837BF3DED8BE21 /* Pods-ShiggyKit_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiggyKit_ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ShiggyKit_ExampleTests/Pods-ShiggyKit_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* ShiggyKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiggyKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67F99D43A39B4823B2FA85F2 /* libPods-ShiggyKit_ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShiggyKit_ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3FC4CF0FA9B44CE1B2BF9D /* libPods-ShiggyKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShiggyKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71564E06D53673B3D054A00E /* Pods-ShiggyKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiggyKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ShiggyKit_Example/Pods-ShiggyKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9DECEDD594B1ECA2DC8833CE /* Pods-ShiggyKit_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiggyKit_ExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShiggyKit_ExampleUITests/Pods-ShiggyKit_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B412DE90738F1C4E9D6D4822 /* Pods-ShiggyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiggyKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ShiggyKit_Example/Pods-ShiggyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BAA691AF22C3A6D500A7AE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAA691B122C3A6D500A7AE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAA691B322C3A6D500A7AE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/OneWeekView.xib; sourceTree = "<group>"; };
+		BAA691B522C3A6D500A7AE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/OneDayView.xib; sourceTree = "<group>"; };
+		BAA691B622C3A6D500A7AE00 /* OneDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDayView.swift; sourceTree = "<group>"; };
+		BAA691B722C3A6D500A7AE00 /* OneWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneWeekView.swift; sourceTree = "<group>"; };
+		BAA691B922C3A6D500A7AE00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAA691BA22C3A6D500A7AE00 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA691BC22C3A6D500A7AE00 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAA691CC22C3A82C00A7AE00 /* ShiggyKit_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiggyKit_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA691CE22C3A82C00A7AE00 /* ShiggyKit_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiggyKit_ExampleTests.swift; sourceTree = "<group>"; };
+		BAA691D022C3A82C00A7AE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA691DA22C3A85B00A7AE00 /* ShiggyKit_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiggyKit_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA691DC22C3A85B00A7AE00 /* ShiggyKit_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiggyKit_ExampleUITests.swift; sourceTree = "<group>"; };
+		BAA691DE22C3A85B00A7AE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C238E81260FAEC322F33DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E7F62AF6ED8930F8F2783622 /* libPods-ShiggyKit_ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShiggyKit_ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F80F1E6C5D1C7B2CB6B36B /* Pods-ShiggyKit_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiggyKit_ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-ShiggyKit_ExampleUITests/Pods-ShiggyKit_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA34740D86A14FFACEB8B823 /* Pods_ShiggyKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShiggyKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D02642F234104E30101EDBC /* libPods-ShiggyKit_Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA691C922C3A82C00A7AE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A0F89FB4BBA7739B18D329 /* libPods-ShiggyKit_ExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA691D722C3A85B00A7AE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6EC949137CFB3EED98CDC1 /* libPods-ShiggyKit_ExampleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F2BA9268ED8F584D363683F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA34740D86A14FFACEB8B823 /* Pods_ShiggyKit_Tests.framework */,
+				6E3FC4CF0FA9B44CE1B2BF9D /* libPods-ShiggyKit_Example.a */,
+				E7F62AF6ED8930F8F2783622 /* libPods-ShiggyKit_ExampleTests.a */,
+				67F99D43A39B4823B2FA85F2 /* libPods-ShiggyKit_ExampleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for ShiggyKit */,
+				BAA691CD22C3A82C00A7AE00 /* ShiggyKit_ExampleTests */,
+				BAA691DB22C3A85B00A7AE00 /* ShiggyKit_ExampleUITests */,
+				607FACD11AFB9204008FA782 /* Products */,
+				65929D461AA626E40131A861 /* Pods */,
+				0F2BA9268ED8F584D363683F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* ShiggyKit_Example.app */,
+				BAA691CC22C3A82C00A7AE00 /* ShiggyKit_ExampleTests.xctest */,
+				BAA691DA22C3A85B00A7AE00 /* ShiggyKit_ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for ShiggyKit */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				BAA691B822C3A6D500A7AE00 /* Resources */,
+				BAA691BB22C3A6D500A7AE00 /* ViewControllers */,
+				BAA691AD22C3A6D500A7AE00 /* Views */,
+			);
+			name = "Example for ShiggyKit";
+			path = ShiggyKit;
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				47F7923D1AEBA5D7485179A2 /* ShiggyKit.podspec */,
+				1B959D8863574D50C2D7A07F /* README.md */,
+				C4C238E81260FAEC322F33DA /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		65929D461AA626E40131A861 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71564E06D53673B3D054A00E /* Pods-ShiggyKit_Example.debug.xcconfig */,
+				B412DE90738F1C4E9D6D4822 /* Pods-ShiggyKit_Example.release.xcconfig */,
+				05EB77A68DF6FA1B1795FC95 /* Pods-ShiggyKit_ExampleTests.debug.xcconfig */,
+				553E5B9F7A837BF3DED8BE21 /* Pods-ShiggyKit_ExampleTests.release.xcconfig */,
+				9DECEDD594B1ECA2DC8833CE /* Pods-ShiggyKit_ExampleUITests.debug.xcconfig */,
+				F3F80F1E6C5D1C7B2CB6B36B /* Pods-ShiggyKit_ExampleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAA691AD22C3A6D500A7AE00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BAA691AE22C3A6D500A7AE00 /* LaunchScreen.storyboard */,
+				BAA691B022C3A6D500A7AE00 /* Main.storyboard */,
+				BAA691B222C3A6D500A7AE00 /* OneWeekView.xib */,
+				BAA691B422C3A6D500A7AE00 /* OneDayView.xib */,
+				BAA691B622C3A6D500A7AE00 /* OneDayView.swift */,
+				BAA691B722C3A6D500A7AE00 /* OneWeekView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BAA691B822C3A6D500A7AE00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAA691B922C3A6D500A7AE00 /* Assets.xcassets */,
+				BAA691BA22C3A6D500A7AE00 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BAA691BB22C3A6D500A7AE00 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAA691BC22C3A6D500A7AE00 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BAA691CD22C3A82C00A7AE00 /* ShiggyKit_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA691CE22C3A82C00A7AE00 /* ShiggyKit_ExampleTests.swift */,
+				BAA691D022C3A82C00A7AE00 /* Info.plist */,
+			);
+			path = ShiggyKit_ExampleTests;
+			sourceTree = "<group>";
+		};
+		BAA691DB22C3A85B00A7AE00 /* ShiggyKit_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA691DC22C3A85B00A7AE00 /* ShiggyKit_ExampleUITests.swift */,
+				BAA691DE22C3A85B00A7AE00 /* Info.plist */,
+			);
+			path = ShiggyKit_ExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* ShiggyKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ShiggyKit_Example" */;
+			buildPhases = (
+				D52C8B6394E1102BB50C391A /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiggyKit_Example;
+			productName = ShiggyKit;
+			productReference = 607FACD01AFB9204008FA782 /* ShiggyKit_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAA691CB22C3A82C00A7AE00 /* ShiggyKit_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA691D322C3A82C00A7AE00 /* Build configuration list for PBXNativeTarget "ShiggyKit_ExampleTests" */;
+			buildPhases = (
+				9213903D4445983CC6EBF0FE /* [CP] Check Pods Manifest.lock */,
+				BAA691C822C3A82C00A7AE00 /* Sources */,
+				BAA691C922C3A82C00A7AE00 /* Frameworks */,
+				BAA691CA22C3A82C00A7AE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA691D222C3A82C00A7AE00 /* PBXTargetDependency */,
+			);
+			name = ShiggyKit_ExampleTests;
+			productName = ShiggyKit_ExampleTests;
+			productReference = BAA691CC22C3A82C00A7AE00 /* ShiggyKit_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAA691D922C3A85B00A7AE00 /* ShiggyKit_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA691E122C3A85B00A7AE00 /* Build configuration list for PBXNativeTarget "ShiggyKit_ExampleUITests" */;
+			buildPhases = (
+				D0EA752289CCC142CE413E3D /* [CP] Check Pods Manifest.lock */,
+				BAA691D622C3A85B00A7AE00 /* Sources */,
+				BAA691D722C3A85B00A7AE00 /* Frameworks */,
+				BAA691D822C3A85B00A7AE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA691E022C3A85B00A7AE00 /* PBXTargetDependency */,
+			);
+			name = ShiggyKit_ExampleUITests;
+			productName = ShiggyKit_ExampleUITests;
+			productReference = BAA691DA22C3A85B00A7AE00 /* ShiggyKit_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = S4PQJQTV7S;
+						LastSwiftMigration = 0900;
+					};
+					BAA691CB22C3A82C00A7AE00 = {
+						CreatedOnToolsVersion = 11.0;
+						DevelopmentTeam = S4PQJQTV7S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					BAA691D922C3A85B00A7AE00 = {
+						CreatedOnToolsVersion = 11.0;
+						DevelopmentTeam = S4PQJQTV7S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ShiggyKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* ShiggyKit_Example */,
+				BAA691CB22C3A82C00A7AE00 /* ShiggyKit_ExampleTests */,
+				BAA691D922C3A85B00A7AE00 /* ShiggyKit_ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA691BD22C3A6D500A7AE00 /* LaunchScreen.storyboard in Resources */,
+				BAA691BF22C3A6D500A7AE00 /* OneWeekView.xib in Resources */,
+				BAA691C022C3A6D500A7AE00 /* OneDayView.xib in Resources */,
+				BAA691BE22C3A6D500A7AE00 /* Main.storyboard in Resources */,
+				BAA691C322C3A6D500A7AE00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA691CA22C3A82C00A7AE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA691D822C3A85B00A7AE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9213903D4445983CC6EBF0FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShiggyKit_ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0EA752289CCC142CE413E3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShiggyKit_ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52C8B6394E1102BB50C391A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShiggyKit_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA691C122C3A6D500A7AE00 /* OneDayView.swift in Sources */,
+				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				BAA691C522C3A6D500A7AE00 /* ViewController.swift in Sources */,
+				BAA691C222C3A6D500A7AE00 /* OneWeekView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA691C822C3A82C00A7AE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA691CF22C3A82C00A7AE00 /* ShiggyKit_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA691D622C3A85B00A7AE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA691DD22C3A85B00A7AE00 /* ShiggyKit_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAA691D222C3A82C00A7AE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* ShiggyKit_Example */;
+			targetProxy = BAA691D122C3A82C00A7AE00 /* PBXContainerItemProxy */;
+		};
+		BAA691E022C3A85B00A7AE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* ShiggyKit_Example */;
+			targetProxy = BAA691DF22C3A85B00A7AE00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAA691AE22C3A6D500A7AE00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA691AF22C3A6D500A7AE00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BAA691B022C3A6D500A7AE00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA691B122C3A6D500A7AE00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAA691B222C3A6D500A7AE00 /* OneWeekView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA691B322C3A6D500A7AE00 /* Base */,
+			);
+			name = OneWeekView.xib;
+			sourceTree = "<group>";
+		};
+		BAA691B422C3A6D500A7AE00 /* OneDayView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA691B522C3A6D500A7AE00 /* Base */,
+			);
+			name = OneDayView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71564E06D53673B3D054A00E /* Pods-ShiggyKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				INFOPLIST_FILE = "$(SRCROOT)/ShiggyKit/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B412DE90738F1C4E9D6D4822 /* Pods-ShiggyKit_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				INFOPLIST_FILE = "$(SRCROOT)/ShiggyKit/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		BAA691D422C3A82C00A7AE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EB77A68DF6FA1B1795FC95 /* Pods-ShiggyKit_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ShiggyKit_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeongsik.lee.ShiggyKit-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShiggyKit_Example.app/ShiggyKit_Example";
+			};
+			name = Debug;
+		};
+		BAA691D522C3A82C00A7AE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553E5B9F7A837BF3DED8BE21 /* Pods-ShiggyKit_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ShiggyKit_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeongsik.lee.ShiggyKit-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShiggyKit_Example.app/ShiggyKit_Example";
+			};
+			name = Release;
+		};
+		BAA691E222C3A85B00A7AE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DECEDD594B1ECA2DC8833CE /* Pods-ShiggyKit_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ShiggyKit_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeongsik.lee.ShiggyKit-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShiggyKit_Example;
+			};
+			name = Debug;
+		};
+		BAA691E322C3A85B00A7AE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F80F1E6C5D1C7B2CB6B36B /* Pods-ShiggyKit_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4PQJQTV7S;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ShiggyKit_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeongsik.lee.ShiggyKit-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShiggyKit_Example;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ShiggyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ShiggyKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA691D322C3A82C00A7AE00 /* Build configuration list for PBXNativeTarget "ShiggyKit_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA691D422C3A82C00A7AE00 /* Debug */,
+				BAA691D522C3A82C00A7AE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA691E122C3A85B00A7AE00 /* Build configuration list for PBXNativeTarget "ShiggyKit_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA691E222C3A85B00A7AE00 /* Debug */,
+				BAA691E322C3A85B00A7AE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}
