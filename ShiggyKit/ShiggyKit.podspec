@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '11.0'
   s.social_media_url = 'https://twitter.com/jeongsik_lee'
   s.ios.deployment_target = '11.0'
-  s.source_files = 'ShiggyKit/Classes/**/*'
+  s.source_files = 'ShiggyKit/Classes/**/*.{swift}'
   s.frameworks = 'UIKit'
 end
