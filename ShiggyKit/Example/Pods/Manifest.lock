@@ -1,0 +1,16 @@
+PODS:
+  - ShiggyKit (0.1.0)
+
+DEPENDENCIES:
+  - ShiggyKit (from `../`)
+
+EXTERNAL SOURCES:
+  ShiggyKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ShiggyKit: a14a2b9dc60ec4b4e23544dda43506fa647c8622
+
+PODFILE CHECKSUM: c8943cb6955e84478c9ed7647636e2173c5cf483
+
+COCOAPODS: 1.7.2

@@ -1,0 +1,6 @@
+module ShiggyKit {
+  umbrella header "ShiggyKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

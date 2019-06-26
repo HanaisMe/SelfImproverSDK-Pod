@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270188E3A97C74DC6FA60E554CFA5848 /* ShiggyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FA2D9FBBF60204823E55A782353A0E /* ShiggyKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4515CB93FA59C08C39623D2FA4E6B209 /* Pods-ShiggyKit_ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8518B6C60A2C2659C6D313C12805FB /* Pods-ShiggyKit_ExampleUITests-dummy.m */; };
+		54B9150EE302285D9741AD87974AA28B /* ShiggyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16298F82B781F2F6CA379E179E7ACDC5 /* ShiggyString.swift */; };
+		5AAD243A7E1149AD9DB5620D3958D36A /* Pods-ShiggyKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F17AB16D5D4AEE632C6FD654F3237EE /* Pods-ShiggyKit_Example-dummy.m */; };
+		639AB797EEFDA3AD9761CD74884C5860 /* ShiggyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490669217F816278CFA1C2642D4C06DA /* ShiggyKit-dummy.m */; };
+		779EFE2E7828A4AF33ABAFA4EAD6015F /* ShiggyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1527843C012648293E1FE9054206C /* ShiggyDate.swift */; };
+		90F9589D5B964AF874B420BBC51FB165 /* ShiggyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BD2A5E5066BA553003C492AB0B85D /* ShiggyTableView.swift */; };
+		9DC40CFDCA4E34452D86CBC9EE42478F /* ShiggyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A93602E8AF9C8A667D2BC1AFEA7C2F /* ShiggyKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A561AD8CDE8FE39C11480E1E6CDA95DD /* ShiggyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97FAF6E84CD01AA3E799FE23A150B0 /* ShiggyKit.swift */; };
+		A89FF1FBF19905E57D9AFCD7EEBC087D /* Pods-ShiggyKit_ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1BF4832521490C6B90D2C1CABBFDEE /* Pods-ShiggyKit_ExampleTests-dummy.m */; };
+		BA667F1CC408F32C7638CA0C79628CF8 /* Pods-ShiggyKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7787A4F27589450D56A3EB128445ADE7 /* Pods-ShiggyKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA9FD567FB99EA99FBBAB474F5B6A4C0 /* ShiggyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267998EAA0ECD5BBAB4FF8927C6EE0 /* ShiggyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		226515EDCBE176CC52DF11C961CAC3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6DC187CD0E918F67D379E537B24659;
+			remoteInfo = "Pods-ShiggyKit_Example";
+		};
+		92A0173A15BCEF792686E80CBF988B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187EBCCA3311D184483BA35A8F5D3EF0;
+			remoteInfo = ShiggyKit;
+		};
+		E624B9E428106B20EEE042FBD1872862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6DC187CD0E918F67D379E537B24659;
+			remoteInfo = "Pods-ShiggyKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA1527843C012648293E1FE9054206C /* ShiggyDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShiggyDate.swift; path = ShiggyKit/Classes/ShiggyDate.swift; sourceTree = "<group>"; };
+		16298F82B781F2F6CA379E179E7ACDC5 /* ShiggyString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShiggyString.swift; path = ShiggyKit/Classes/ShiggyString.swift; sourceTree = "<group>"; };
+		16674824A896C0EBBF0C722115834AF3 /* ShiggyKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ShiggyKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F17AB16D5D4AEE632C6FD654F3237EE /* Pods-ShiggyKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShiggyKit_Example-dummy.m"; sourceTree = "<group>"; };
+		2B84B75AF22C07E72C254DABF9E192BF /* libPods-ShiggyKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShiggyKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2F01CCC3F2E40B3F98D8E476AC15C0 /* Pods-ShiggyKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShiggyKit_Example.modulemap"; sourceTree = "<group>"; };
+		2E31C7F9CC6AED0FEE809819B40F9C37 /* ShiggyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShiggyKit.modulemap; sourceTree = "<group>"; };
+		32D6DD317E07A114F07A14762CA0E633 /* Pods-ShiggyKit_ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShiggyKit_ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E48A5D6238398D7C5B899CD019B693A /* Pods-ShiggyKit_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShiggyKit_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		490669217F816278CFA1C2642D4C06DA /* ShiggyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShiggyKit-dummy.m"; sourceTree = "<group>"; };
+		4C8518B6C60A2C2659C6D313C12805FB /* Pods-ShiggyKit_ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShiggyKit_ExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		50ED098F70A3EB206B84D876E2427636 /* libPods-ShiggyKit_ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShiggyKit_ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D62FDD17D273BB0837AC08FD0F6C663 /* Pods-ShiggyKit_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShiggyKit_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BB5FDBDB50879143957E24B3BBFC5A5 /* Pods-ShiggyKit_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShiggyKit_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FBC53AEDBFB960ABDAABA7E09B49407 /* Pods-ShiggyKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShiggyKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		70E11D43537902948ACF71FA2A72155F /* Pods-ShiggyKit_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShiggyKit_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74430A66E66A38F222FF218FD89875E7 /* Pods-ShiggyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShiggyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7787A4F27589450D56A3EB128445ADE7 /* Pods-ShiggyKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShiggyKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		78267998EAA0ECD5BBAB4FF8927C6EE0 /* ShiggyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShiggyViewController.swift; path = ShiggyKit/Classes/ShiggyViewController.swift; sourceTree = "<group>"; };
+		7B97FAF6E84CD01AA3E799FE23A150B0 /* ShiggyKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShiggyKit.swift; path = ShiggyKit/Classes/ShiggyKit.swift; sourceTree = "<group>"; };
+		89323B8BEF862CD7F7532A4E7E905782 /* Pods-ShiggyKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShiggyKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		937D6B2655417E4AC257059ED3BA2E55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		95A93602E8AF9C8A667D2BC1AFEA7C2F /* ShiggyKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ShiggyKit.h; path = ShiggyKit/Classes/ShiggyKit.h; sourceTree = "<group>"; };
+		98320499E727FAAF38EC0D0FC33F3A55 /* Pods-ShiggyKit_ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShiggyKit_ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C8BD2A5E5066BA553003C492AB0B85D /* ShiggyTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShiggyTableView.swift; path = ShiggyKit/Classes/ShiggyTableView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A338C564CEAEB07CE27906C54601087F /* ShiggyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShiggyKit-prefix.pch"; sourceTree = "<group>"; };
+		AA06E277CA85EDDB1691BD46B6B37AD7 /* libPods-ShiggyKit_ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShiggyKit_ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1BF4832521490C6B90D2C1CABBFDEE /* Pods-ShiggyKit_ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShiggyKit_ExampleTests-dummy.m"; sourceTree = "<group>"; };
+		B2FA2D9FBBF60204823E55A782353A0E /* ShiggyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShiggyKit-umbrella.h"; sourceTree = "<group>"; };
+		B348FAB9141A0DB25B25CB2023C24759 /* Pods-ShiggyKit_ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShiggyKit_ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD07FC8B8E4C6737C00A9C1058F68F18 /* Pods-ShiggyKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShiggyKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C77C20F13C46D76741A302F61B124B4E /* ShiggyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShiggyKit.xcconfig; sourceTree = "<group>"; };
+		D2B15AB2F3C6511CB01D752B70874725 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6B8699B543733C039AEB511B2045EBE /* Pods-ShiggyKit_ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShiggyKit_ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F66B09F9A05A695314FDC2594FC2E300 /* libShiggyKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShiggyKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455EDF69DCDEEDA3B5A5747639C5DB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C0C14E5E72BAF07A418F343EBC341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE26DDCD80C77D33D088335C90AD5715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65286D7FC3800CECF4D4770C4024F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002DF9923470A766EF47956F7FA24750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B84B75AF22C07E72C254DABF9E192BF /* libPods-ShiggyKit_Example.a */,
+				50ED098F70A3EB206B84D876E2427636 /* libPods-ShiggyKit_ExampleTests.a */,
+				AA06E277CA85EDDB1691BD46B6B37AD7 /* libPods-ShiggyKit_ExampleUITests.a */,
+				F66B09F9A05A695314FDC2594FC2E300 /* libShiggyKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D4CDD3C942465204B669151CE2CFD90 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				937D6B2655417E4AC257059ED3BA2E55 /* LICENSE */,
+				D2B15AB2F3C6511CB01D752B70874725 /* README.md */,
+				16674824A896C0EBBF0C722115834AF3 /* ShiggyKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3DD7ED82DF4A9733B461B4C35E8AB026 /* Pods-ShiggyKit_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98320499E727FAAF38EC0D0FC33F3A55 /* Pods-ShiggyKit_ExampleUITests-acknowledgements.markdown */,
+				32D6DD317E07A114F07A14762CA0E633 /* Pods-ShiggyKit_ExampleUITests-acknowledgements.plist */,
+				4C8518B6C60A2C2659C6D313C12805FB /* Pods-ShiggyKit_ExampleUITests-dummy.m */,
+				6BB5FDBDB50879143957E24B3BBFC5A5 /* Pods-ShiggyKit_ExampleUITests.debug.xcconfig */,
+				3E48A5D6238398D7C5B899CD019B693A /* Pods-ShiggyKit_ExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-ShiggyKit_ExampleUITests";
+			path = "Target Support Files/Pods-ShiggyKit_ExampleUITests";
+			sourceTree = "<group>";
+		};
+		40984E63354D6E47026247BECBA88809 /* ShiggyKit */ = {
+			isa = PBXGroup;
+			children = (
+				0BA1527843C012648293E1FE9054206C /* ShiggyDate.swift */,
+				95A93602E8AF9C8A667D2BC1AFEA7C2F /* ShiggyKit.h */,
+				7B97FAF6E84CD01AA3E799FE23A150B0 /* ShiggyKit.swift */,
+				16298F82B781F2F6CA379E179E7ACDC5 /* ShiggyString.swift */,
+				9C8BD2A5E5066BA553003C492AB0B85D /* ShiggyTableView.swift */,
+				78267998EAA0ECD5BBAB4FF8927C6EE0 /* ShiggyViewController.swift */,
+				1D4CDD3C942465204B669151CE2CFD90 /* Pod */,
+				FA51E5C856D8B38140271C412C27044C /* Support Files */,
+			);
+			name = ShiggyKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		47322C62DB36B8A48992C6292900ED14 /* Pods-ShiggyKit_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B348FAB9141A0DB25B25CB2023C24759 /* Pods-ShiggyKit_ExampleTests-acknowledgements.markdown */,
+				D6B8699B543733C039AEB511B2045EBE /* Pods-ShiggyKit_ExampleTests-acknowledgements.plist */,
+				AC1BF4832521490C6B90D2C1CABBFDEE /* Pods-ShiggyKit_ExampleTests-dummy.m */,
+				70E11D43537902948ACF71FA2A72155F /* Pods-ShiggyKit_ExampleTests.debug.xcconfig */,
+				5D62FDD17D273BB0837AC08FD0F6C663 /* Pods-ShiggyKit_ExampleTests.release.xcconfig */,
+			);
+			name = "Pods-ShiggyKit_ExampleTests";
+			path = "Target Support Files/Pods-ShiggyKit_ExampleTests";
+			sourceTree = "<group>";
+		};
+		6557F7752F0519666FB6AAF562B6B9CF /* Pods-ShiggyKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2D2F01CCC3F2E40B3F98D8E476AC15C0 /* Pods-ShiggyKit_Example.modulemap */,
+				BD07FC8B8E4C6737C00A9C1058F68F18 /* Pods-ShiggyKit_Example-acknowledgements.markdown */,
+				89323B8BEF862CD7F7532A4E7E905782 /* Pods-ShiggyKit_Example-acknowledgements.plist */,
+				1F17AB16D5D4AEE632C6FD654F3237EE /* Pods-ShiggyKit_Example-dummy.m */,
+				7787A4F27589450D56A3EB128445ADE7 /* Pods-ShiggyKit_Example-umbrella.h */,
+				6FBC53AEDBFB960ABDAABA7E09B49407 /* Pods-ShiggyKit_Example.debug.xcconfig */,
+				74430A66E66A38F222FF218FD89875E7 /* Pods-ShiggyKit_Example.release.xcconfig */,
+			);
+			name = "Pods-ShiggyKit_Example";
+			path = "Target Support Files/Pods-ShiggyKit_Example";
+			sourceTree = "<group>";
+		};
+		CA0545E7CBFE9DC3E632CEDC61AED8FD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40984E63354D6E47026247BECBA88809 /* ShiggyKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CA0545E7CBFE9DC3E632CEDC61AED8FD /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				002DF9923470A766EF47956F7FA24750 /* Products */,
+				F8B2ECF591F6EBAFAE43A1BA9267014A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8B2ECF591F6EBAFAE43A1BA9267014A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6557F7752F0519666FB6AAF562B6B9CF /* Pods-ShiggyKit_Example */,
+				47322C62DB36B8A48992C6292900ED14 /* Pods-ShiggyKit_ExampleTests */,
+				3DD7ED82DF4A9733B461B4C35E8AB026 /* Pods-ShiggyKit_ExampleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FA51E5C856D8B38140271C412C27044C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E31C7F9CC6AED0FEE809819B40F9C37 /* ShiggyKit.modulemap */,
+				C77C20F13C46D76741A302F61B124B4E /* ShiggyKit.xcconfig */,
+				490669217F816278CFA1C2642D4C06DA /* ShiggyKit-dummy.m */,
+				A338C564CEAEB07CE27906C54601087F /* ShiggyKit-prefix.pch */,
+				B2FA2D9FBBF60204823E55A782353A0E /* ShiggyKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ShiggyKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3271CA628C116F3EC328C7BE82381E11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480D650A2EBCF076D94E4ADFDB0204EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA667F1CC408F32C7638CA0C79628CF8 /* Pods-ShiggyKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF110D522D946C181601B63C31468087 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98913CDFB02F3C386E8FD07BF7650A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270188E3A97C74DC6FA60E554CFA5848 /* ShiggyKit-umbrella.h in Headers */,
+				9DC40CFDCA4E34452D86CBC9EE42478F /* ShiggyKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		187EBCCA3311D184483BA35A8F5D3EF0 /* ShiggyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F983248EF6BC7046D86923CEAF5671 /* Build configuration list for PBXNativeTarget "ShiggyKit" */;
+			buildPhases = (
+				F98913CDFB02F3C386E8FD07BF7650A5 /* Headers */,
+				3D45DF528676940109D2BCC5165DC19E /* Sources */,
+				D65286D7FC3800CECF4D4770C4024F57 /* Frameworks */,
+				1D92E7D611D53B409D6130D8EF9408E0 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiggyKit;
+			productName = ShiggyKit;
+			productReference = F66B09F9A05A695314FDC2594FC2E300 /* libShiggyKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5054ACFA39919C44A290C8CADBD78AEE /* Pods-ShiggyKit_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60F4E65B615BF62250937183C340C3DC /* Build configuration list for PBXNativeTarget "Pods-ShiggyKit_ExampleUITests" */;
+			buildPhases = (
+				CF110D522D946C181601B63C31468087 /* Headers */,
+				F511366EEA23137434DCDE3BB7B257C9 /* Sources */,
+				C71C0C14E5E72BAF07A418F343EBC341 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E5A98ADB061FEA43DA2F51860F16B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShiggyKit_ExampleUITests";
+			productName = "Pods-ShiggyKit_ExampleUITests";
+			productReference = AA06E277CA85EDDB1691BD46B6B37AD7 /* libPods-ShiggyKit_ExampleUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5D6DC187CD0E918F67D379E537B24659 /* Pods-ShiggyKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAAE23DEB2B61D8413EA5EB4BC4F001 /* Build configuration list for PBXNativeTarget "Pods-ShiggyKit_Example" */;
+			buildPhases = (
+				480D650A2EBCF076D94E4ADFDB0204EE /* Headers */,
+				EB990F9565ABC9E11CDC16F4FAB0BC96 /* Sources */,
+				455EDF69DCDEEDA3B5A5747639C5DB0E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A1D0D2EC469EEB7981C1A125901105E /* PBXTargetDependency */,
+			);
+			name = "Pods-ShiggyKit_Example";
+			productName = "Pods-ShiggyKit_Example";
+			productReference = 2B84B75AF22C07E72C254DABF9E192BF /* libPods-ShiggyKit_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DE72E934B17D4A18822055436F4CA53 /* Pods-ShiggyKit_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC4A6B3853EC8B64B1843463C38A96A /* Build configuration list for PBXNativeTarget "Pods-ShiggyKit_ExampleTests" */;
+			buildPhases = (
+				3271CA628C116F3EC328C7BE82381E11 /* Headers */,
+				BE9C7EA58AFFBCC5477CDFCAFDA6C87D /* Sources */,
+				CE26DDCD80C77D33D088335C90AD5715 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C009CBBCD01DE1062E360E62918F7744 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShiggyKit_ExampleTests";
+			productName = "Pods-ShiggyKit_ExampleTests";
+			productReference = 50ED098F70A3EB206B84D876E2427636 /* libPods-ShiggyKit_ExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 002DF9923470A766EF47956F7FA24750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D6DC187CD0E918F67D379E537B24659 /* Pods-ShiggyKit_Example */,
+				9DE72E934B17D4A18822055436F4CA53 /* Pods-ShiggyKit_ExampleTests */,
+				5054ACFA39919C44A290C8CADBD78AEE /* Pods-ShiggyKit_ExampleUITests */,
+				187EBCCA3311D184483BA35A8F5D3EF0 /* ShiggyKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D92E7D611D53B409D6130D8EF9408E0 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ShiggyKit/ShiggyKit.modulemap",
+				"${PODS_ROOT}/Headers/Public/ShiggyKit/ShiggyKit-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ShiggyKit-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ShiggyKit/ShiggyKit.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ShiggyKit/ShiggyKit-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D45DF528676940109D2BCC5165DC19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779EFE2E7828A4AF33ABAFA4EAD6015F /* ShiggyDate.swift in Sources */,
+				639AB797EEFDA3AD9761CD74884C5860 /* ShiggyKit-dummy.m in Sources */,
+				A561AD8CDE8FE39C11480E1E6CDA95DD /* ShiggyKit.swift in Sources */,
+				54B9150EE302285D9741AD87974AA28B /* ShiggyString.swift in Sources */,
+				90F9589D5B964AF874B420BBC51FB165 /* ShiggyTableView.swift in Sources */,
+				CA9FD567FB99EA99FBBAB474F5B6A4C0 /* ShiggyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9C7EA58AFFBCC5477CDFCAFDA6C87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89FF1FBF19905E57D9AFCD7EEBC087D /* Pods-ShiggyKit_ExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB990F9565ABC9E11CDC16F4FAB0BC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AAD243A7E1149AD9DB5620D3958D36A /* Pods-ShiggyKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F511366EEA23137434DCDE3BB7B257C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4515CB93FA59C08C39623D2FA4E6B209 /* Pods-ShiggyKit_ExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A1D0D2EC469EEB7981C1A125901105E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShiggyKit;
+			target = 187EBCCA3311D184483BA35A8F5D3EF0 /* ShiggyKit */;
+			targetProxy = 92A0173A15BCEF792686E80CBF988B9B /* PBXContainerItemProxy */;
+		};
+		84E5A98ADB061FEA43DA2F51860F16B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ShiggyKit_Example";
+			target = 5D6DC187CD0E918F67D379E537B24659 /* Pods-ShiggyKit_Example */;
+			targetProxy = E624B9E428106B20EEE042FBD1872862 /* PBXContainerItemProxy */;
+		};
+		C009CBBCD01DE1062E360E62918F7744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ShiggyKit_Example";
+			target = 5D6DC187CD0E918F67D379E537B24659 /* Pods-ShiggyKit_Example */;
+			targetProxy = 226515EDCBE176CC52DF11C961CAC3FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D8857CC34F2E8A466C7CACA069E118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74430A66E66A38F222FF218FD89875E7 /* Pods-ShiggyKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShiggyKit_Example/Pods-ShiggyKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		175F66C7C5432B61ECE18B628859666D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E11D43537902948ACF71FA2A72155F /* Pods-ShiggyKit_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3CC6DCA8B0D9BA75F39FFF686B5A964D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77C20F13C46D76741A302F61B124B4E /* ShiggyKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ShiggyKit/ShiggyKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/ShiggyKit/ShiggyKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ShiggyKit;
+				PRODUCT_NAME = ShiggyKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4603BC4CF701ACBA98F0F543441BE3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D62FDD17D273BB0837AC08FD0F6C663 /* Pods-ShiggyKit_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		764C4BF85F458072F115C460882DF11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FBC53AEDBFB960ABDAABA7E09B49407 /* Pods-ShiggyKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShiggyKit_Example/Pods-ShiggyKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97D6420BFF6DAAB48822E249451BF7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB5FDBDB50879143957E24B3BBFC5A5 /* Pods-ShiggyKit_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E36C3DF42F2BEF607693C20CD47EA2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E48A5D6238398D7C5B899CD019B693A /* Pods-ShiggyKit_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E85897CE696DEDE6280ECD828FAEB2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77C20F13C46D76741A302F61B124B4E /* ShiggyKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ShiggyKit/ShiggyKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/ShiggyKit/ShiggyKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ShiggyKit;
+				PRODUCT_NAME = ShiggyKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAAE23DEB2B61D8413EA5EB4BC4F001 /* Build configuration list for PBXNativeTarget "Pods-ShiggyKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764C4BF85F458072F115C460882DF11C /* Debug */,
+				02D8857CC34F2E8A466C7CACA069E118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60F4E65B615BF62250937183C340C3DC /* Build configuration list for PBXNativeTarget "Pods-ShiggyKit_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D6420BFF6DAAB48822E249451BF7BD /* Debug */,
+				E36C3DF42F2BEF607693C20CD47EA2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC4A6B3853EC8B64B1843463C38A96A /* Build configuration list for PBXNativeTarget "Pods-ShiggyKit_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175F66C7C5432B61ECE18B628859666D /* Debug */,
+				4603BC4CF701ACBA98F0F543441BE3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F983248EF6BC7046D86923CEAF5671 /* Build configuration list for PBXNativeTarget "ShiggyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85897CE696DEDE6280ECD828FAEB2E0 /* Debug */,
+				3CC6DCA8B0D9BA75F39FFF686B5A964D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

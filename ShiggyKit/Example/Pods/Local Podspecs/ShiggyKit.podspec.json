@@ -1,0 +1,25 @@
+{
+  "name": "ShiggyKit",
+  "version": "0.1.0",
+  "summary": "Utilities to save time when developing",
+  "homepage": "https://hanaisme.github.io/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HanaIsMe": "hanaismelee@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/HanaIsMe/ShiggyKit.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "4.2",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "social_media_url": "https://twitter.com/jeongsik_lee",
+  "source_files": "ShiggyKit/Classes/**/*",
+  "frameworks": "UIKit",
+  "swift_version": "4.2"
+}

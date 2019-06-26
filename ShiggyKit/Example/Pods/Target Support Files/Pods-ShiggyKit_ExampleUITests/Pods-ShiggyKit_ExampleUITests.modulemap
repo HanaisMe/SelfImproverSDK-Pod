@@ -1,0 +1,6 @@
+framework module Pods_ShiggyKit_ExampleUITests {
+  umbrella header "Pods-ShiggyKit_ExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
