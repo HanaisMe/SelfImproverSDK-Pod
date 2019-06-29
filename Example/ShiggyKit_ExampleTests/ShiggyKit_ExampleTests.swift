@@ -40,16 +40,16 @@ class ShiggyKit_ExampleTests: XCTestCase {
         XCTAssertEqual(sundayOneDayView?.theDayLabel.text, "Sun")
         
         let thisMonthTitle = testVC.navigationController?.navigationBar.topItem?.title
-        XCTAssertEqual(thisMonthTitle, "2019-06")
+        XCTAssertEqual(thisMonthTitle, testVC.resolveDate())
         
         testVC.previousMonthButtonTapped(testVC)
         let previousMonthTitle = testVC.navigationController?.navigationBar.topItem?.title
-        XCTAssertEqual(previousMonthTitle, "2019-05")
+        XCTAssertEqual(previousMonthTitle, testVC.resolveDate())
         
         testVC.nextMonthButtonTapped(testVC)
         testVC.nextMonthButtonTapped(testVC)
         let nextMonthTitle = testVC.navigationController?.navigationBar.topItem?.title
-        XCTAssertEqual(nextMonthTitle, "2019-07")
+        XCTAssertEqual(nextMonthTitle, testVC.resolveDate())
     }
     
     func testShiggyDate() {

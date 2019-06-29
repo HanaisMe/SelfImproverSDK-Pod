@@ -22,8 +22,14 @@ class ViewController: UIViewController {
             if let date = oneDate {
                 let year = date.shiggy.toYear
                 let month = date.shiggy.toMonth
-                self.navigationController?.navigationBar.topItem?.title = "\(year)-\(month)"
+                self.theDate = "\(year)-\(month)"
             }
+        }
+    }
+    
+    private var theDate: String? {
+        didSet {
+            self.navigationController?.navigationBar.topItem?.title = theDate
         }
     }
     
@@ -97,6 +103,14 @@ extension ViewController: OneDayViewDelegate {
                                            firstButtonTitle: "OK",
                                            firstButtonAction: { theDayView.goBackToOriginalFont() },
                                            firstButtonStyle: .destructive)
+    }
+    
+}
+
+extension ViewController: Dependency {
+    
+    func resolveDate() -> String {
+        return theDate ?? ""
     }
     
 }
